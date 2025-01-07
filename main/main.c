@@ -76,7 +76,7 @@ void app_main(void)
                             ESP_LOGI("DDS", "AMPL: %d", ampl);
                         }
                     }
-                } 
+                }
                 break;
             default:
                 break;
