@@ -1,0 +1,108 @@
+[
+ {
+  "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/fifo_top/fifo_top.v",
+  "InstLine" : 302,
+  "InstName" : "fifo_top",
+  "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/fifo_top/fifo_top.v",
+  "ModuleLine" : 302,
+  "ModuleName" : "fifo_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/fifo_top/fifo_top.v",
+    "InstLine" : 323,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/fifo_top/fifo_top.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "~fifo.fifo_top"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+    "InstLine" : 18,
+    "InstName" : "sys_clk_inst",
+    "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/clk/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "sys_clk"
+   },
+   {
+    "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+    "InstLine" : 30,
+    "InstName" : "dac8830_inst",
+    "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dac8830.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "dac8830",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dac8830.v",
+      "InstLine" : 22,
+      "InstName" : "DDS_inst",
+      "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dds.v",
+      "ModuleLine" : 2840,
+      "ModuleName" : "DDS_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dds.v",
+        "InstLine" : 2859,
+        "InstName" : "DDS",
+        "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dds.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~DDS.DDS_Top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dac8830.v",
+      "InstLine" : 62,
+      "InstName" : "dds_ampl_mult",
+      "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/integer_multiplier/integer_multiplier.v",
+      "ModuleLine" : 63,
+      "ModuleName" : "DDS_Ampl_Multiplier",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/integer_multiplier/integer_multiplier.v",
+        "InstLine" : 74,
+        "InstName" : "integer_multiplier_inst",
+        "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/integer_multiplier/integer_multiplier.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "(integer_multiplier)/(DDS_Ampl_Multiplier)"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dac8830.v",
+      "InstLine" : 77,
+      "InstName" : "spi",
+      "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/spi_mode0_master/spi_mode0_master.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "spi_master_transceiver"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+    "InstLine" : 46,
+    "InstName" : "spi_mcu2fpga",
+    "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/spi_mode0_slave/spi_slave.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "SPI_Slave"
+   },
+   {
+    "InstFile" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+    "InstLine" : 62,
+    "InstName" : "spi_sync_inst",
+    "ModuleFile" : "C:/Users/hgszh/Desktop/AD-DA/src/spi_mode0_slave/spi_slave.v",
+    "ModuleLine" : 146,
+    "ModuleName" : "spi_sync_and_decode"
+   }
+  ]
+ }
+]

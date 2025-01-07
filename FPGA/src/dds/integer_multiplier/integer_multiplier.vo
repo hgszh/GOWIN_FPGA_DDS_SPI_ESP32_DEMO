@@ -1,0 +1,57 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Post-PnR Simulation Model file
+//Tool Version: V1.9.9 (64-bit)
+//Created Time: Thu Oct 10 03:04:56 2024
+
+`timescale 100 ps/100 ps
+module DDS_Ampl_Multiplier(
+	mul_a,
+	mul_b,
+	product
+);
+input [15:0] mul_a;
+input [11:0] mul_b;
+output [27:0] product;
+wire GND;
+wire VCC;
+wire [15:0] mul_a;
+wire [11:0] mul_b;
+wire [27:0] product;
+wire [35:28] \integer_multiplier_inst/integer_multiplier_DSP_inst/DOUT ;
+wire [17:0] \integer_multiplier_inst/integer_multiplier_DSP_inst/SOA ;
+wire [17:0] \integer_multiplier_inst/integer_multiplier_DSP_inst/SOB ;
+VCC VCC_cZ (
+  .V(VCC)
+);
+GND GND_cZ (
+  .G(GND)
+);
+GSR GSR (
+	.GSRI(VCC)
+);
+MULT18X18 \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1  (
+	.ASIGN(VCC),
+	.BSIGN(VCC),
+	.CE(GND),
+	.CLK(GND),
+	.RESET(GND),
+	.ASEL(GND),
+	.BSEL(GND),
+	.SIA({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND}),
+	.SIB({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND}),
+	.A({GND, GND, GND, GND, GND, GND, mul_b[11:0]}),
+	.B({mul_a[15], mul_a[15], mul_a[15:0]}),
+	.SOA({\integer_multiplier_inst/integer_multiplier_DSP_inst/SOA [17:0]}),
+	.SOB({\integer_multiplier_inst/integer_multiplier_DSP_inst/SOB [17:0]}),
+	.DOUT({\integer_multiplier_inst/integer_multiplier_DSP_inst/DOUT [35:28], product[27:0]})
+);
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .AREG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .BREG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .SOA_REG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .OUT_REG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .PIPE_REG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .ASIGN_REG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .BSIGN_REG=1'b0;
+defparam \integer_multiplier_inst/integer_multiplier_DSP_inst/mult_32_s1 .MULT_RESET_MODE="SYNC";
+endmodule

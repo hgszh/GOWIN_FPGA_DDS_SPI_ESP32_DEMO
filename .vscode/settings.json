@@ -1,0 +1,47 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "d:\\esp\\v5.3.1\\tools\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;d:\\esp\\v5.3.1\\tools\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;d:\\esp\\v5.3.1\\tools\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin;d:\\esp\\v5.3.1\\tools\\tools\\riscv32-esp-elf\\esp-13.2.0_20240530\\riscv32-esp-elf\\bin;d:\\esp\\v5.3.1\\tools\\tools\\esp32ulp-elf\\2.38_20240113\\esp32ulp-elf\\bin;d:\\esp\\v5.3.1\\tools\\tools\\cmake\\3.24.0\\bin;d:\\esp\\v5.3.1\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20240318\\openocd-esp32\\bin;d:\\esp\\v5.3.1\\tools\\tools\\ninja\\1.11.1;d:\\esp\\v5.3.1\\tools\\tools\\idf-exe\\1.0.3;d:\\esp\\v5.3.1\\tools\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;d:\\esp\\v5.3.1\\tools\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;d:\\esp\\v5.3.1\\tools\\tools\\esp-rom-elfs\\20240305",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "d:\\esp\\v5.3.1\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "d:\\esp\\v5.3.1\\tools\\tools\\esp-rom-elfs\\20240305/"
+    },
+    "idf.espIdfPathWin": "C:\\Users\\hgszh\\esp\\v5.3.1\\esp-idf",
+    "idf.espAdfPathWin": "D:\\esp\\5.1.2\\esp-adf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.portWin": "COM27",
+    "idf.pythonBinPathWin": "d:\\esp\\v5.3.1\\tools\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "d:\\esp\\v5.3.1\\tools",
+    "idf.gitPathWin": "d:\\esp\\v5.3.1\\tools\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
+    "files.associations": {
+        "task.h": "c",
+        "gpio.h": "c",
+        "freertos.h": "c",
+        "system_misc_task.h": "c",
+        "stdio.h": "c",
+        "soc_caps.h": "c",
+        "i2s_std.h": "c",
+        "esp_log.h": "c",
+        "pga113.h": "c",
+        "spi_master.h": "c",
+        "compare": "c",
+        "cstdint": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c",
+        "bitset": "c",
+        "memory": "c",
+        "random": "c",
+        "future": "c",
+        "optional": "c",
+        "dds.h": "c",
+        "regex": "c",
+        "stdint.h": "c",
+        "stddef.h": "c",
+        "string.h": "c"
+    }
+}

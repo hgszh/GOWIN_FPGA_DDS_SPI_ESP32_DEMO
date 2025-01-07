@@ -1,0 +1,142 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="data_send[39]" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" implementation="0" trigger_pos="0" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="data_recv[39:0]">
+                <Signal>data_recv[39]</Signal>
+                <Signal>data_recv[38]</Signal>
+                <Signal>data_recv[37]</Signal>
+                <Signal>data_recv[36]</Signal>
+                <Signal>data_recv[35]</Signal>
+                <Signal>data_recv[34]</Signal>
+                <Signal>data_recv[33]</Signal>
+                <Signal>data_recv[32]</Signal>
+                <Signal>data_recv[31]</Signal>
+                <Signal>data_recv[30]</Signal>
+                <Signal>data_recv[29]</Signal>
+                <Signal>data_recv[28]</Signal>
+                <Signal>data_recv[27]</Signal>
+                <Signal>data_recv[26]</Signal>
+                <Signal>data_recv[25]</Signal>
+                <Signal>data_recv[24]</Signal>
+                <Signal>data_recv[23]</Signal>
+                <Signal>data_recv[22]</Signal>
+                <Signal>data_recv[21]</Signal>
+                <Signal>data_recv[20]</Signal>
+                <Signal>data_recv[19]</Signal>
+                <Signal>data_recv[18]</Signal>
+                <Signal>data_recv[17]</Signal>
+                <Signal>data_recv[16]</Signal>
+                <Signal>data_recv[15]</Signal>
+                <Signal>data_recv[14]</Signal>
+                <Signal>data_recv[13]</Signal>
+                <Signal>data_recv[12]</Signal>
+                <Signal>data_recv[11]</Signal>
+                <Signal>data_recv[10]</Signal>
+                <Signal>data_recv[9]</Signal>
+                <Signal>data_recv[8]</Signal>
+                <Signal>data_recv[7]</Signal>
+                <Signal>data_recv[6]</Signal>
+                <Signal>data_recv[5]</Signal>
+                <Signal>data_recv[4]</Signal>
+                <Signal>data_recv[3]</Signal>
+                <Signal>data_recv[2]</Signal>
+                <Signal>data_recv[1]</Signal>
+                <Signal>data_recv[0]</Signal>
+            </Bus>
+            <Signal capture_enable="false">spi_cs</Signal>
+            <Signal capture_enable="false">spi_sclk</Signal>
+            <Signal capture_enable="false">spi_mosi</Signal>
+            <Signal capture_enable="false">spi_miso</Signal>
+            <Signal capture_enable="false">spi_mcu2fpga/o_RX_DV</Signal>
+            <Bus capture_enable="false" name="data_send[39:0]">
+                <Signal>data_send[39]</Signal>
+                <Signal>data_send[38]</Signal>
+                <Signal>data_send[37]</Signal>
+                <Signal>data_send[36]</Signal>
+                <Signal>data_send[35]</Signal>
+                <Signal>data_send[34]</Signal>
+                <Signal>data_send[33]</Signal>
+                <Signal>data_send[32]</Signal>
+                <Signal>data_send[31]</Signal>
+                <Signal>data_send[30]</Signal>
+                <Signal>data_send[29]</Signal>
+                <Signal>data_send[28]</Signal>
+                <Signal>data_send[27]</Signal>
+                <Signal>data_send[26]</Signal>
+                <Signal>data_send[25]</Signal>
+                <Signal>data_send[24]</Signal>
+                <Signal>data_send[23]</Signal>
+                <Signal>data_send[22]</Signal>
+                <Signal>data_send[21]</Signal>
+                <Signal>data_send[20]</Signal>
+                <Signal>data_send[19]</Signal>
+                <Signal>data_send[18]</Signal>
+                <Signal>data_send[17]</Signal>
+                <Signal>data_send[16]</Signal>
+                <Signal>data_send[15]</Signal>
+                <Signal>data_send[14]</Signal>
+                <Signal>data_send[13]</Signal>
+                <Signal>data_send[12]</Signal>
+                <Signal>data_send[11]</Signal>
+                <Signal>data_send[10]</Signal>
+                <Signal>data_send[9]</Signal>
+                <Signal>data_send[8]</Signal>
+                <Signal>data_send[7]</Signal>
+                <Signal>data_send[6]</Signal>
+                <Signal>data_send[5]</Signal>
+                <Signal>data_send[4]</Signal>
+                <Signal>data_send[3]</Signal>
+                <Signal>data_send[2]</Signal>
+                <Signal>data_send[1]</Signal>
+                <Signal>data_send[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>spi_cs</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1000100110100000</GAO_ID>
+</GAO_CONFIG>

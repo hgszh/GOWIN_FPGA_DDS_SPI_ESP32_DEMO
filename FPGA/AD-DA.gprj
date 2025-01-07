@@ -1,0 +1,19 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/clk/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/dds/dac8830.v" type="file.verilog" enable="1"/>
+        <File path="src/dds/dds.v" type="file.verilog" enable="1"/>
+        <File path="src/dds/integer_multiplier/integer_multiplier.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/fifo_top.v" type="file.verilog" enable="1"/>
+        <File path="src/spi_mode0_master/spi_mode0_master.v" type="file.verilog" enable="1"/>
+        <File path="src/spi_mode0_slave/spi_slave.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/AD-DA.cst" type="file.cst" enable="1"/>
+        <File path="src/AD-DA.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
