@@ -3,7 +3,7 @@
 FPGA-based DDS signal generation controlled by an ESP32 over SPI.
 
 - **FPGA**: GW1NR-9 (Tangnano9K board / Gowin IDE commercial version)
-- **DAC**: DAC8830
+- **DAC**: DAC8830 (External circuit)
 
 Chinese video tutorial: [Link](https://www.bilibili.com/video/BV1HQrgYVE3F/)
 
