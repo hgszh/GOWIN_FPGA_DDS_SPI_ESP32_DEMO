@@ -12,7 +12,7 @@
     "idf.openOcdConfigs": [
         "board/esp32s3-bridge.cfg"
     ],
-    "idf.portWin": "COM27",
+    "idf.portWin": "COM10",
     "idf.pythonBinPathWin": "d:\\esp\\v5.3.1\\tools\\python_env\\idf5.3_py3.11_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "d:\\esp\\v5.3.1\\tools",
     "idf.gitPathWin": "d:\\esp\\v5.3.1\\tools\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
@@ -42,6 +42,11 @@
         "regex": "c",
         "stdint.h": "c",
         "stddef.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "adc_oneshot.h": "c",
+        "mcu_to_fpga_spi.h": "c",
+        "multi_button.h": "c",
+        "adc_cali.h": "c",
+        "adc_cali_scheme.h": "c"
     }
 }

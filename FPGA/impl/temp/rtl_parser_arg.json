@@ -2,35 +2,35 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/clk/gowin_rpll/gowin_rpll.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/clk/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dac8830.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/dds/dac8830.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/dds.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/dds/dds.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/dds/integer_multiplier/integer_multiplier.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/dds/integer_multiplier/integer_multiplier.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/fifo_top/fifo_top.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/fifo_top/fifo_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/spi_mode0_master/spi_mode0_master.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/spi_mode0_master/spi_mode0_master.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/spi_mode0_slave/spi_slave.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/spi_mode0_slave/spi_slave.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/hgszh/Desktop/AD-DA/src/top.v",
+   "Path" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/src/top.v",
    "Type" : "verilog"
   }
  ],
@@ -38,7 +38,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/hgszh/Desktop/AD-DA/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/hgszh/Desktop/gowin_fpga_dds_spi_esp32_demo/FPGA/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
